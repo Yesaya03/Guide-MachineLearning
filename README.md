@@ -33,7 +33,7 @@ Use`drop()` function to delete a column in a data
 2. Feature Importance
 
 At this stage, we distinguish the data we want to include in the x variable (training data) and the y variable (test data).\
-Next stage, we use scikit learn with the `ExtraTreesClassifier()` module. This module can tell which features most influence on the data tested.
+And Then, we use scikit learn with the `ExtraTreesClassifier()` module. This module can tell which features most influence on the data tested.
 
 3. Train Test Split
 
