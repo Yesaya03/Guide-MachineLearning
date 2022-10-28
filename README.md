@@ -40,3 +40,23 @@ Next stage, we use scikit learn with the `ExtraTreesClassifier()` module. This m
 Train Test Split is the process of dividing the percentage between the data training and the data testing.\
 For example:\
 `X_train, X_test, y_train, y_test = train_test_split(X, y, train_size = 0.8, random_state = 48)`
+
+## Machine Learning Modelling
+
+In Pre-Processing has several stages:
+
+1. Feature Selection
+
+At this stage, we determine which columns will include in the modelling.\
+Use`drop()` function to delete a column in a data
+
+2. Feature Importance
+
+At this stage, we distinguish the data we want to include in the x variable (training data) and the y variable (test data).\
+Next stage, we use scikit learn with the `ExtraTreesClassifier()` module. This module can tell which features most influence on the data tested.
+
+3. Train Test Split
+
+Train Test Split is the process of dividing the percentage between the data training and the data testing.\
+For example:\
+`X_train, X_test, y_train, y_test = train_test_split(X, y, train_size = 0.8, random_state = 48)`
