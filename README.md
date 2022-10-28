@@ -29,14 +29,14 @@ In Pre-Processing has several stages:
 
 At this stage, we determine which columns will include in the modelling.\
 Use`drop()` function to delete a column in a data
-Note:
-* **prefix** : String to append DataFrame column names. Pass a list with length equal to the number of columns when calling get_dummies on a DataFrame. Alternatively, prefix can be a dictionary mapping column names to prefixes.\
-* **drop_first** : Whether to get k-1 dummies out of k categorical levels by removing the first level.
 
-2. Converts ordinal data to numeric data
+2. Feature Importance
 
-This way,  We can use syntax `map()` 
+At this stage, we distinguish the data we want to include in the x variable (training data) and the y variable (test data).\
+Next stage, we use scikit learn with the `ExtraTreesClassifier()` module. This module can tell which features most influence on the data tested.
 
-3. Standardize or equalize the value of an integer.
+3. Train Test Split
 
-To normalize the value of a variable in data to be balanced, we can use `StandardScaler`. Keep in mind, that `StandardScaler` does not change values or data, only normalizes data.
+Train Test Split is the process of dividing the percentage between the data training and the data testing.\
+For example:\
+`X_train, X_test, y_train, y_test = train_test_split(X, y, train_size = 0.8, random_state = 48)`
