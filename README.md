@@ -29,34 +29,27 @@ In Pre-Processing has several stages:
 
 At this stage, we determine which columns will include in the modelling.\
 Use`drop()` function to delete a column in a data
+Note:
+* **prefix** : String to append DataFrame column names. Pass a list with length equal to the number of columns when calling get_dummies on a DataFrame. Alternatively, prefix can be a dictionary mapping column names to prefixes.\
+* **drop_first** : Whether to get k-1 dummies out of k categorical levels by removing the first level.
 
-2. Feature Importance
+2. Converts ordinal data to numeric data
 
-At this stage, we distinguish the data we want to include in the x variable (training data) and the y variable (test data).\
-Next stage, we use scikit learn with the `ExtraTreesClassifier()` module. This module can tell which features most influence on the data tested.
+This way,  We can use syntax `map()` 
 
-3. Train Test Split
+3. Standardize or equalize the value of an integer.
 
-Train Test Split is the process of dividing the percentage between the data training and the data testing.\
-For example:\
-`X_train, X_test, y_train, y_test = train_test_split(X, y, train_size = 0.8, random_state = 48)`
+To normalize the value of a variable in data to be balanced, we can use `StandardScaler`. Keep in mind, that `StandardScaler` does not change values or data, only normalizes data.
 
-## Machine Learning Modelling Simple Regression
 
-In Pre-Processing has several stages:
+## Machine Learning Linear Regression
 
-1. Feature Selection
+Linear regression is an attempt to model the relationship between two variables by fitting a linear equation to observed data, where one variable is considered to be an explanatory variable and the other as a dependent variable.
 
-At this stage, we determine which columns will include in the modelling.\
-Use`drop()` function to delete a column in a data
+1. Simple Linear Regression
 
-2. Feature Importance
+Simple Linear Regression is a type of Regression algorithms that models the relationship between a dependent variable and a single independent variable.
 
-At this stage, we distinguish the data we want to include in the x variable (training data) and the y variable (test data).\
-Next stage, we use scikit learn with the `ExtraTreesClassifier()` module. This module can tell which features most influence on the data tested.
+2. Multiple Linear Regression
 
-3. Train Test Split
-
-Train Test Split is the process of dividing the percentage between the data training and the data testing.\
-For example:\
-`X_train, X_test, y_train, y_test = train_test_split(X, y, train_size = 0.8, random_state = 48)`
+Multiple linear regression is a statistical technique that uses multiple linear regression to model more complex relationships between two or more independent variables and one dependent variable
