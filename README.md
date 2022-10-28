@@ -41,7 +41,7 @@ Train Test Split is the process of dividing the percentage between the data trai
 For example:\
 `X_train, X_test, y_train, y_test = train_test_split(X, y, train_size = 0.8, random_state = 48)`
 
-## Machine Learning Modelling
+## Machine Learning Modelling Simple Regression
 
 In Pre-Processing has several stages:
 
