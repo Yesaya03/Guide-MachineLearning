@@ -21,3 +21,22 @@ This way,  We can use syntax `map()`
 
 To normalize the value of a variable in data to be balanced, we can use `StandardScaler`. Keep in mind, that `StandardScaler` does not change values or data, only normalizes data.
 
+## Pre-Processing
+
+In Pre-Processing has several stages:
+
+1. Feature Selection
+
+At this stage, we determine which columns will include in the modelling.\
+Use`drop()` function to delete a column in a data
+Note:
+* **prefix** : String to append DataFrame column names. Pass a list with length equal to the number of columns when calling get_dummies on a DataFrame. Alternatively, prefix can be a dictionary mapping column names to prefixes.\
+* **drop_first** : Whether to get k-1 dummies out of k categorical levels by removing the first level.
+
+2. Converts ordinal data to numeric data
+
+This way,  We can use syntax `map()` 
+
+3. Standardize or equalize the value of an integer.
+
+To normalize the value of a variable in data to be balanced, we can use `StandardScaler`. Keep in mind, that `StandardScaler` does not change values or data, only normalizes data.
