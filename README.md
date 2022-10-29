@@ -72,3 +72,13 @@ for example in Linear Regression Algoritm, in default the parameter will filled 
 - positive `False`
 
 but with `GridSearchCV` we can find the best model for the parameters put in the algorithm by adjusting the `x_train` and `y_train`
+
+and result best model for parameter in Linear Regression parameter is :
+- fit_intercept `True`
+- normalize `True` (values change)
+- copy_X `True`
+- n_jobs `None`
+- positive `True` (Values Change)
+
+
+and MAPE will decrease from `0.34839227351370355` to `0.3483922735137035`
