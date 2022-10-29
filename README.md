@@ -52,3 +52,23 @@ Simple Linear Regression is a type of Regression algorithms that models the rela
 2. Multiple Linear Regression
 
 Multiple linear regression is a statistical technique that uses multiple linear regression to model more complex relationships between two or more independent variables and one dependent variable
+
+## Cross Validation
+
+statistical methods that can be used to develop models or algorithms where data is separated into two subsets namely the learning process and data validation/evaluation.
+
+to do cross validation we can use new library from sklearn 
+`from sklearn.model_selection import cross_val_score`
+
+## Hyperparameter Tuning and Evaluate Model
+
+hyperparameter ledger is a method to determine the best parameter content in an algorithm in a machine learning. When using an algorithm without entering any parameters, the algorithm will use the default parameters that have been previously used by the program.
+
+for example in Linear Regression Algoritm, in default the parameter will filled with :
+- fit_intercept `True`
+- normalize `False`
+- copy_X `True`
+- n_jobs `None`
+- positive `False`
+
+but with `GridSearchCV` we can find the best model for the parameters put in the algorithm by adjusting the `x_train` and `y_train`
