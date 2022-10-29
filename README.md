@@ -53,6 +53,18 @@ Simple Linear Regression is a type of Regression algorithms that models the rela
 
 Multiple linear regression is a statistical technique that uses multiple linear regression to model more complex relationships between two or more independent variables and one dependent variable
 
+## Time Series Forecasting
+
+The data included in the time series type can then be plotted based on time. Forecasting is implemented to observe patterns from the data and determine the analysis steps.
+
+1. Simple Linear Regression
+
+Simple Linear Regression is a type of Regression algorithms that models the relationship between a dependent variable and a single independent variable.
+
+2. Multiple Linear Regression
+
+Multiple linear regression is a statistical technique that uses multiple linear regression to model more complex relationships between two or more independent variables and one dependent variable fdadfads
+
 ## Cross Validation
 
 statistical methods that can be used to develop models or algorithms where data is separated into two subsets namely the learning process and data validation/evaluation.
