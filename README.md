@@ -57,13 +57,7 @@ Multiple linear regression is a statistical technique that uses multiple linear 
 
 The data included in the time series type can then be plotted based on time. Forecasting is implemented to observe patterns from the data and determine the analysis steps.
 
-1. Simple Linear Regression
-
-Simple Linear Regression is a type of Regression algorithms that models the relationship between a dependent variable and a single independent variable.
-
-2. Multiple Linear Regression
-
-Multiple linear regression is a statistical technique that uses multiple linear regression to model more complex relationships between two or more independent variables and one dependent variable fdadfads
+To do use Time Series Forecating, we can use new library from prophet `from prophet import Prophet`
 
 ## Cross Validation
 
