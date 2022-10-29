@@ -1,5 +1,47 @@
 # Machine Learning
 
+## Machine Learning Workflow
+
+<img width="558" alt="image" src="https://user-images.githubusercontent.com/96195171/198821925-3c2ed5cb-aed1-4a3a-a793-98c1b62cbe90.png">
+
+## Data Profiling
+Data profiling is the process of examining the data available from an existing information source and collecting statistics or informative summaries about that data.
+
+In practice, there are some things that are generally done most often, including:
+
+1. Display Dataset Preview
+Data preview can be displayed with `df.head()` to display the first 5 (default) rows and all columns in the source object. We can also see the last 5 rows in the dataset by using `df.tail()`
+
+2. Display Dataset Info
+To get info/short description of the data, we can use `df.info()` function. So we can find out the number of columns, the number of rows, the data type of the column, and the number of non-null data. This is very useful when doing exploratory data analysis.
+
+3. Checking Missing Value
+In order to check missing values in Pandas DataFrame, we can use a function `isna()`. This function help in checking missing values in dataset.
+
+## Data Cleansing
+Data cleansing or data cleaning is the process of detecting and correcting corrupt or inaccurate records from a record set, table, or database and refers to identifying incomplete, incorrect, inaccurate or irrelevant parts of the data and then replacing, modifying, or deleting the dirty or coarse data.
+
+1. Handling Missing Values
+One way to deal with missing values ​​(NaN – Not numbers) is to fill them with any value using the `fillna()` method.pandas. However, the values ​​that are often used to fill in the blank data are usually the mean, median, or mode of each column.
+
+2. Customize the appropriate data type
+We can check the data type of each column, then if there is a column that has a data type that does not match, we can change it.
+
+## Exploratory Data Analysis
+Exploratory Data Analysis (EDA) is an approach to analyze the data using visual techniques. It is used to discover trends, patterns, or to check assumptions with the help of statistical summary and graphical representations.
+
+1. Data Description
+Before exploring the data, we can see a brief summary of the dataset using the `describe()` method. The `describe()` function applies basic statistical calculations to the dataset so that it can give a good idea of ​​the distribution of the data.
+
+2. Numerical Data Visualization
+KDE is used to create probability density visualizations of continuous and non-parametric data variables.
+
+3. Categorical Data Visualization 
+A barplot shows the relationship between numeric & categorical variables. In the example, each categorical variable is represented as a bar with its count value representing its numeric value.
+
+4. Heat Map Correlation
+Heat Map is graphical representations of data that utilize color-coded systems. 
+
 ## Feature Engineering
 
 In feature engineering, we can perform a transformation for machine learning modelling needs. Machine learning only accepts numeric data. All data types are converted into numeric form to enter machine learning modelling. The process of converting data types into numeric formats is called feature engineering.
